@@ -1,5 +1,6 @@
 ﻿import { ServiceOptions, serviceRequest } from "@serenity-is/corelib";
-import { FileContentResult } from "../Microsoft/AspNetCore.Mvc.FileContentResult";
+import { BookParametros } from "../Modules/BookShop.Book.BookParametros";
+import { BooksRequest } from "../Modules/BookShop.Book.BooksRequest";
 import { DeleteRequest } from "../Services/DeleteRequest";
 import { DeleteResponse } from "../Services/DeleteResponse";
 import { ListRequest } from "../Services/ListRequest";
@@ -18,7 +19,7 @@ export namespace BookService {
     export declare function Delete(request: DeleteRequest, onSuccess?: (response: DeleteResponse) => void, opt?: ServiceOptions<any>): PromiseLike<DeleteResponse>;
     export declare function Retrieve(request: RetrieveRequest, onSuccess?: (response: RetrieveResponse<BookRow>) => void, opt?: ServiceOptions<any>): PromiseLike<RetrieveResponse<BookRow>>;
     export declare function List(request: ListRequest, onSuccess?: (response: ListResponse<BookRow>) => void, opt?: ServiceOptions<any>): PromiseLike<ListResponse<BookRow>>;
-    export declare function ListExcel(request: ListRequest, onSuccess?: (response: FileContentResult) => void, opt?: ServiceOptions<any>): PromiseLike<FileContentResult>;
+    export declare function ejecutarAPI(request: BooksRequest, onSuccess?: (response: BookParametros) => void, opt?: ServiceOptions<any>): PromiseLike<BookParametros>;
 
     export const Methods = {
         Create: "BookShop/Book/Create",
@@ -26,7 +27,7 @@ export namespace BookService {
         Delete: "BookShop/Book/Delete",
         Retrieve: "BookShop/Book/Retrieve",
         List: "BookShop/Book/List",
-        ListExcel: "BookShop/Book/ListExcel"
+        ejecutarAPI: "BookShop/Book/ejecutarAPI"
     } as const;
 
     [
@@ -35,7 +36,7 @@ export namespace BookService {
         'Delete', 
         'Retrieve', 
         'List', 
-        'ListExcel'
+        'ejecutarAPI'
     ].forEach(x => {
         (<any>BookService)[x] = function (r, s, o) {
             return serviceRequest(baseUrl + '/' + x, r, s, o);

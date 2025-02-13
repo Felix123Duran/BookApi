@@ -1,4 +1,4 @@
-﻿import { RoleRow, RoleForm, RoleService } from "../";
+import { RoleRow, RoleForm, RoleService } from "../";
 import { RolePermissionDialog } from "../RolePermission/RolePermissionDialog";
 import { Texts } from "../../ServerTypes/Texts"
 import { Decorators, EntityDialog } from "@serenity-is/corelib";
@@ -31,6 +31,8 @@ export class RoleDialog extends EntityDialog<RoleRow, any> {
                 }).dialogOpen();
             }
         });
+       
+       
 
         return buttons;
     }

@@ -81,6 +81,23 @@ namespace Bookapp.BookShop.Endpoints
             var bookRequest = new StringContent(JsonConvert.SerializeObject(book), Encoding.UTF8, "application/json");
             var responseBook = await client.GetAsync(endpointAPI);
 
+            if (responseBook.IsSuccessStatusCode)
+            {
+                var jsonBook = await responseBook.Content.ReadAsStringAsync();
+
+                var objBooks = JsonConvert.DeserializeObject<BookParametros>(jsonBook);
+
+
+                return objBooks;
+
+            }
+            else
+            {
+                return null;
+            }
+
+            
+
 
             //return responseBook;
 
