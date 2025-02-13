@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Bookapp.Web")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("BookApp_Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a84018251059dbf27cbc37a54faa57c7f46aa1aa")]
-[assembly: System.Reflection.AssemblyProductAttribute("Bookapp.Web")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Bookapp.Web")]
+[assembly: System.Reflection.AssemblyProductAttribute("BookApp_Api")]
+[assembly: System.Reflection.AssemblyTitleAttribute("BookApp_Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Generado por la clase WriteCodeFragment de MSBuild.

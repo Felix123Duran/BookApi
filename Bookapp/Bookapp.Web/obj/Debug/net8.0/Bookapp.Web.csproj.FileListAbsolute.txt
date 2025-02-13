@@ -328,3 +328,4 @@ C:\Users\felix\Desktop\FDR Tec Solutions\Bookapp\BookApi\Bookapp\Bookapp.Web\obj
 C:\Users\felix\Desktop\FDR Tec Solutions\Bookapp\BookApi\Bookapp\Bookapp.Web\obj\Debug\net8.0\Bookapp.Web.pdb
 C:\Users\felix\Desktop\FDR Tec Solutions\Bookapp\BookApi\Bookapp\Bookapp.Web\obj\Debug\net8.0\Bookapp.Web.genruntimeconfig.cache
 C:\Users\felix\Desktop\FDR Tec Solutions\Bookapp\BookApi\Bookapp\Bookapp.Web\obj\Debug\net8.0\ref\Bookapp.Web.dll
+C:\Users\felix\Desktop\FDR Tec Solutions\Bookapp\BookApi\Bookapp\Bookapp.Web\obj\Debug\net8.0\Bookapp.Web.sourcelink.json
