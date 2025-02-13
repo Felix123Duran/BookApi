@@ -7,5 +7,6 @@ namespace BookApp_Api.Controllers
     [ApiController]
     public class BooksController : ControllerBase
     {
+
     }
 }

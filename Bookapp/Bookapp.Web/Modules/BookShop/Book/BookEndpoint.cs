@@ -1,4 +1,6 @@
+using Bookapp.Modules.BookShop.Book;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Configuration;
 using Serenity.Data;
 using Serenity.Reporting;
 using Serenity.Services;
@@ -10,6 +12,7 @@ using System.Globalization;
 using System.Net.Http;
 using System.Net.Http.Json;
 using System.Threading.Tasks;
+using Newtonsoft.Json;
 using MyRow = Bookapp.BookShop.BookRow;
 
 namespace Bookapp.BookShop.Endpoints
@@ -26,85 +29,63 @@ namespace Bookapp.BookShop.Endpoints
         }
 
         [HttpPost, AuthorizeCreate(typeof(MyRow))]
-        public async Task<SaveResponse> Create(IUnitOfWork uow, SaveRequest<MyRow> request)
+        public SaveResponse Create(IUnitOfWork uow, SaveRequest<MyRow> request,
+                [FromServices] IBookSaveHandler handler)
         {
-            var response = await _httpClient.PostAsJsonAsync("api/v1/Books", request.Entity);
-            if (response.IsSuccessStatusCode)
-            {
-                var createdBook = await response.Content.ReadFromJsonAsync<MyRow>();
-                return new SaveResponse { EntityId = createdBook?.Id ?? 0 };
-            }
-            throw new ValidationError("Error al crear el libro en la FakeAPI.");
+            return handler.Create(uow, request);
         }
 
         [HttpPost, AuthorizeUpdate(typeof(MyRow))]
-        public async Task<SaveResponse> Update(IUnitOfWork uow, SaveRequest<MyRow> request)
+        public SaveResponse Update(IUnitOfWork uow, SaveRequest<MyRow> request,
+            [FromServices] IBookSaveHandler handler)
         {
-            int bookId = Convert.ToInt32(request.EntityId); // Conversión segura de EntityId a int
-
-            var response = await _httpClient.PutAsJsonAsync($"api/v1/Books/{bookId}", request.Entity);
-            if (response.IsSuccessStatusCode)
-            {
-                return new SaveResponse { EntityId = bookId };
-            }
-            throw new ValidationError("Error al actualizar el libro en la FakeAPI.");
+            return handler.Update(uow, request);
         }
 
         [HttpPost, AuthorizeDelete(typeof(MyRow))]
-        public async Task<DeleteResponse> Delete(IUnitOfWork uow, DeleteRequest request)
+        public DeleteResponse Delete(IUnitOfWork uow, DeleteRequest request,
+            [FromServices] IBookDeleteHandler handler)
         {
-            int bookId = Convert.ToInt32(request.EntityId); // Conversión segura
-
-            var response = await _httpClient.DeleteAsync($"api/v1/Books/{bookId}");
-            if (response.IsSuccessStatusCode)
-            {
-                return new DeleteResponse();
-            }
-            throw new ValidationError("Error al eliminar el libro en la FakeAPI.");
+            return handler.Delete(uow, request);
         }
 
         [HttpPost]
-        public async Task<RetrieveResponse<MyRow>> Retrieve(IDbConnection connection, RetrieveRequest request)
+        public RetrieveResponse<MyRow> Retrieve(IDbConnection connection, RetrieveRequest request,
+            [FromServices] IBookRetrieveHandler handler)
         {
-            int bookId = Convert.ToInt32(request.EntityId); // Conversión segura
-
-            var response = await _httpClient.GetAsync($"api/v1/Books/{bookId}");
-            if (response.IsSuccessStatusCode)
-            {
-                var book = await response.Content.ReadFromJsonAsync<MyRow>();
-                return new RetrieveResponse<MyRow> { Entity = book };
-            }
-            throw new ValidationError("Error al obtener el libro desde la FakeAPI.");
+            return handler.Retrieve(connection, request);
         }
 
         [HttpPost, AuthorizeList(typeof(MyRow))]
-        public async Task<ListResponse<MyRow>> List(IDbConnection connection, ListRequest request)
+        public ListResponse<MyRow> List(IDbConnection connection, ListRequest request,
+            [FromServices] IBookListHandler handler)
         {
-            var response = await _httpClient.GetAsync("api/v1/Books");
-            if (response.IsSuccessStatusCode)
-            {
-                var books = await response.Content.ReadFromJsonAsync<List<MyRow>>();
-                return new ListResponse<MyRow> { Entities = books ?? new List<MyRow>() };
-            }
-            throw new ValidationError("Error al obtener los libros desde la FakeAPI.");
+            return handler.List(connection, request);
         }
 
         [HttpPost, AuthorizeList(typeof(MyRow))]
-        public async Task<FileContentResult> ListExcel(IDbConnection connection, ListRequest request,
+        public FileContentResult ListExcel(IDbConnection connection, ListRequest request,
+            [FromServices] IBookListHandler handler,
             [FromServices] IExcelExporter exporter)
         {
-            var response = await _httpClient.GetAsync("api/v1/Books");
-            if (response.IsSuccessStatusCode)
-            {
-                var books = await response.Content.ReadFromJsonAsync<List<MyRow>>();
-                var bytes = exporter.Export(books ?? new List<MyRow>(), typeof(Columns.BookColumns), request.ExportColumns);
-
-                return ExcelContentResult.Create(bytes, "BookList_" +
-                    DateTime.Now.ToString("yyyyMMdd_HHmmss", CultureInfo.InvariantCulture) + ".xlsx");
-            }
-            throw new ValidationError("Error al obtener los libros desde la FakeAPI.");
+            var data = List(connection, request, handler).Entities;
+            var bytes = exporter.Export(data, typeof(Columns.BookColumns), request.ExportColumns);
+            return ExcelContentResult.Create(bytes, "BookList_" +
+                DateTime.Now.ToString("yyyyMMdd_HHmmss", CultureInfo.InvariantCulture) + ".xlsx");
         }
+        public async Task<BookParametros> ejecutarAPI(BooksRequest book)
+        {
+            var client = new HttpClient();
+            var builder = new ConfigurationBuilder().AddJsonFile("appsettings.json").Build();
+            var endpointAPI = builder.GetSection("BooksAPI:endpointAPI").Value;
+            var bookRequest = new StringContent(JsonConvert.SerializeObject(book), Encoding.UTF8, "application/json");
+            var responseBook = await client.GetAsync(endpointAPI);
 
+
+            //return responseBook;
+
+        }
+        
         //public async 
     }
 }

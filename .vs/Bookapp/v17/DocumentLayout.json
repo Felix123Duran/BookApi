@@ -3,28 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\felix\\Desktop\\FDR Tec Solutions\\Bookapp\\BookApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0CA22C13-65BB-4460-9A47-D2767071057D}|Bookapp\\Bookapp.Web\\Bookapp.Web.csproj|c:\\users\\felix\\desktop\\fdr tec solutions\\bookapp\\bookapi\\bookapp\\bookapp.web\\modules\\bookshop\\book\\bookparametros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0CA22C13-65BB-4460-9A47-D2767071057D}|Bookapp\\Bookapp.Web\\Bookapp.Web.csproj|solutionrelative:bookapp\\bookapp.web\\modules\\bookshop\\book\\bookparametros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0CA22C13-65BB-4460-9A47-D2767071057D}|Bookapp\\Bookapp.Web\\Bookapp.Web.csproj|c:\\users\\felix\\desktop\\fdr tec solutions\\bookapp\\bookapi\\bookapp\\bookapp.web\\modules\\servertypes\\administration\\roleservice.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{0CA22C13-65BB-4460-9A47-D2767071057D}|Bookapp\\Bookapp.Web\\Bookapp.Web.csproj|solutionrelative:bookapp\\bookapp.web\\modules\\servertypes\\administration\\roleservice.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0CA22C13-65BB-4460-9A47-D2767071057D}|Bookapp\\Bookapp.Web\\Bookapp.Web.csproj|c:\\users\\felix\\desktop\\fdr tec solutions\\bookapp\\bookapi\\bookapp\\bookapp.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{0CA22C13-65BB-4460-9A47-D2767071057D}|Bookapp\\Bookapp.Web\\Bookapp.Web.csproj|solutionrelative:bookapp\\bookapp.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9938A739-8BAD-445C-A68C-B275520E1585}|BookApp_Api\\BookApp_Api.csproj|c:\\users\\felix\\desktop\\fdr tec solutions\\bookapp\\bookapi\\bookapp_api\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9938A739-8BAD-445C-A68C-B275520E1585}|BookApp_Api\\BookApp_Api.csproj|solutionrelative:bookapp_api\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0CA22C13-65BB-4460-9A47-D2767071057D}|Bookapp\\Bookapp.Web\\Bookapp.Web.csproj|c:\\users\\felix\\desktop\\fdr tec solutions\\bookapp\\bookapi\\bookapp\\bookapp.web\\modules\\bookshop\\book\\bookendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0CA22C13-65BB-4460-9A47-D2767071057D}|Bookapp\\Bookapp.Web\\Bookapp.Web.csproj|solutionrelative:bookapp\\bookapp.web\\modules\\bookshop\\book\\bookendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0CA22C13-65BB-4460-9A47-D2767071057D}|Bookapp\\Bookapp.Web\\Bookapp.Web.csproj|c:\\users\\felix\\desktop\\fdr tec solutions\\bookapp\\bookapi\\bookapp\\bookapp.web\\modules\\servertypes\\membership\\loginform.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{0CA22C13-65BB-4460-9A47-D2767071057D}|Bookapp\\Bookapp.Web\\Bookapp.Web.csproj|solutionrelative:bookapp\\bookapp.web\\modules\\servertypes\\membership\\loginform.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0CA22C13-65BB-4460-9A47-D2767071057D}|Bookapp\\Bookapp.Web\\Bookapp.Web.csproj|c:\\users\\felix\\desktop\\fdr tec solutions\\bookapp\\bookapi\\bookapp\\bookapp.web\\modules\\servertypes\\bookshop\\bookform.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
       "RelativeMoniker": "D:0:0:{0CA22C13-65BB-4460-9A47-D2767071057D}|Bookapp\\Bookapp.Web\\Bookapp.Web.csproj|solutionrelative:bookapp\\bookapp.web\\modules\\servertypes\\bookshop\\bookform.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{0CA22C13-65BB-4460-9A47-D2767071057D}|Bookapp\\Bookapp.Web\\Bookapp.Web.csproj|c:\\users\\felix\\desktop\\fdr tec solutions\\bookapp\\bookapi\\bookapp\\bookapp.web\\modules\\bookshop\\book\\booksrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CA22C13-65BB-4460-9A47-D2767071057D}|Bookapp\\Bookapp.Web\\Bookapp.Web.csproj|solutionrelative:bookapp\\bookapp.web\\modules\\bookshop\\book\\booksrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CA22C13-65BB-4460-9A47-D2767071057D}|Bookapp\\Bookapp.Web\\Bookapp.Web.csproj|c:\\users\\felix\\desktop\\fdr tec solutions\\bookapp\\bookapi\\bookapp\\bookapp.web\\modules\\servertypes\\administration\\languageservice.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{0CA22C13-65BB-4460-9A47-D2767071057D}|Bookapp\\Bookapp.Web\\Bookapp.Web.csproj|solutionrelative:bookapp\\bookapp.web\\modules\\servertypes\\administration\\languageservice.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CA22C13-65BB-4460-9A47-D2767071057D}|Bookapp\\Bookapp.Web\\Bookapp.Web.csproj|c:\\users\\felix\\desktop\\fdr tec solutions\\bookapp\\bookapi\\bookapp\\bookapp.web\\modules\\bookshop\\book\\bookendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CA22C13-65BB-4460-9A47-D2767071057D}|Bookapp\\Bookapp.Web\\Bookapp.Web.csproj|solutionrelative:bookapp\\bookapp.web\\modules\\bookshop\\book\\bookendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0CA22C13-65BB-4460-9A47-D2767071057D}|Bookapp\\Bookapp.Web\\Bookapp.Web.csproj|c:\\users\\felix\\desktop\\fdr tec solutions\\bookapp\\bookapi\\bookapp\\bookapp.web\\modules\\bookshop\\book\\bookpage.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
       "RelativeMoniker": "D:0:0:{0CA22C13-65BB-4460-9A47-D2767071057D}|Bookapp\\Bookapp.Web\\Bookapp.Web.csproj|solutionrelative:bookapp\\bookapp.web\\modules\\bookshop\\book\\bookpage.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9938A739-8BAD-445C-A68C-B275520E1585}|BookApp_Api\\BookApp_Api.csproj|c:\\users\\felix\\desktop\\fdr tec solutions\\bookapp\\bookapi\\bookapp_api\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9938A739-8BAD-445C-A68C-B275520E1585}|BookApp_Api\\BookApp_Api.csproj|solutionrelative:bookapp_api\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CA22C13-65BB-4460-9A47-D2767071057D}|Bookapp\\Bookapp.Web\\Bookapp.Web.csproj|c:\\users\\felix\\desktop\\fdr tec solutions\\bookapp\\bookapi\\bookapp\\bookapp.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0CA22C13-65BB-4460-9A47-D2767071057D}|Bookapp\\Bookapp.Web\\Bookapp.Web.csproj|solutionrelative:bookapp\\bookapp.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CA22C13-65BB-4460-9A47-D2767071057D}|Bookapp\\Bookapp.Web\\Bookapp.Web.csproj|c:\\users\\felix\\desktop\\fdr tec solutions\\bookapp\\bookapi\\bookapp\\bookapp.web\\modules\\bookshop\\book\\bookparametros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CA22C13-65BB-4460-9A47-D2767071057D}|Bookapp\\Bookapp.Web\\Bookapp.Web.csproj|solutionrelative:bookapp\\bookapp.web\\modules\\bookshop\\book\\bookparametros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CA22C13-65BB-4460-9A47-D2767071057D}|Bookapp\\Bookapp.Web\\Bookapp.Web.csproj|c:\\users\\felix\\desktop\\fdr tec solutions\\bookapp\\bookapi\\bookapp\\bookapp.web\\modules\\servertypes\\administration\\rolepermissionlistrequest.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{0CA22C13-65BB-4460-9A47-D2767071057D}|Bookapp\\Bookapp.Web\\Bookapp.Web.csproj|solutionrelative:bookapp\\bookapp.web\\modules\\servertypes\\administration\\rolepermissionlistrequest.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,63 +54,102 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
+              "Title": "LanguageService.ts",
+              "DocumentMoniker": "C:\\Users\\felix\\Desktop\\FDR Tec Solutions\\Bookapp\\BookApi\\Bookapp\\Bookapp.Web\\Modules\\ServerTypes\\Administration\\LanguageService.ts",
+              "RelativeDocumentMoniker": "Bookapp\\Bookapp.Web\\Modules\\ServerTypes\\Administration\\LanguageService.ts",
+              "ToolTip": "C:\\Users\\felix\\Desktop\\FDR Tec Solutions\\Bookapp\\BookApi\\Bookapp\\Bookapp.Web\\Modules\\ServerTypes\\Administration\\LanguageService.ts",
+              "RelativeToolTip": "Bookapp\\Bookapp.Web\\Modules\\ServerTypes\\Administration\\LanguageService.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-02-13T17:42:05.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginForm.ts",
+              "DocumentMoniker": "C:\\Users\\felix\\Desktop\\FDR Tec Solutions\\Bookapp\\BookApi\\Bookapp\\Bookapp.Web\\Modules\\ServerTypes\\Membership\\LoginForm.ts",
+              "RelativeDocumentMoniker": "Bookapp\\Bookapp.Web\\Modules\\ServerTypes\\Membership\\LoginForm.ts",
+              "ToolTip": "C:\\Users\\felix\\Desktop\\FDR Tec Solutions\\Bookapp\\BookApi\\Bookapp\\Bookapp.Web\\Modules\\ServerTypes\\Membership\\LoginForm.ts",
+              "RelativeToolTip": "Bookapp\\Bookapp.Web\\Modules\\ServerTypes\\Membership\\LoginForm.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-02-13T17:40:45.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BooksRequest.cs",
+              "DocumentMoniker": "C:\\Users\\felix\\Desktop\\FDR Tec Solutions\\Bookapp\\BookApi\\Bookapp\\Bookapp.Web\\Modules\\BookShop\\Book\\BooksRequest.cs",
+              "RelativeDocumentMoniker": "Bookapp\\Bookapp.Web\\Modules\\BookShop\\Book\\BooksRequest.cs",
+              "ToolTip": "C:\\Users\\felix\\Desktop\\FDR Tec Solutions\\Bookapp\\BookApi\\Bookapp\\Bookapp.Web\\Modules\\BookShop\\Book\\BooksRequest.cs",
+              "RelativeToolTip": "Bookapp\\Bookapp.Web\\Modules\\BookShop\\Book\\BooksRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T17:07:36.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "BookParametros.cs",
               "DocumentMoniker": "C:\\Users\\felix\\Desktop\\FDR Tec Solutions\\Bookapp\\BookApi\\Bookapp\\Bookapp.Web\\Modules\\BookShop\\Book\\BookParametros.cs",
               "RelativeDocumentMoniker": "Bookapp\\Bookapp.Web\\Modules\\BookShop\\Book\\BookParametros.cs",
               "ToolTip": "C:\\Users\\felix\\Desktop\\FDR Tec Solutions\\Bookapp\\BookApi\\Bookapp\\Bookapp.Web\\Modules\\BookShop\\Book\\BookParametros.cs",
               "RelativeToolTip": "Bookapp\\Bookapp.Web\\Modules\\BookShop\\Book\\BookParametros.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-13T12:11:13.33Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\felix\\Desktop\\FDR Tec Solutions\\Bookapp\\BookApi\\Bookapp\\Bookapp.Web\\appsettings.json",
               "RelativeDocumentMoniker": "Bookapp\\Bookapp.Web\\appsettings.json",
               "ToolTip": "C:\\Users\\felix\\Desktop\\FDR Tec Solutions\\Bookapp\\BookApi\\Bookapp\\Bookapp.Web\\appsettings.json",
               "RelativeToolTip": "Bookapp\\Bookapp.Web\\appsettings.json",
-              "ViewState": "AQIAACcAAAAAAAAAAAAAADUAAABEAAAA",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAADUAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-02-13T12:06:42.344Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "BooksController.cs",
               "DocumentMoniker": "C:\\Users\\felix\\Desktop\\FDR Tec Solutions\\Bookapp\\BookApi\\BookApp_Api\\Controllers\\BooksController.cs",
               "RelativeDocumentMoniker": "BookApp_Api\\Controllers\\BooksController.cs",
               "ToolTip": "C:\\Users\\felix\\Desktop\\FDR Tec Solutions\\Bookapp\\BookApi\\BookApp_Api\\Controllers\\BooksController.cs",
               "RelativeToolTip": "BookApp_Api\\Controllers\\BooksController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAfAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-13T11:58:34.179Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "BookForm.ts",
               "DocumentMoniker": "C:\\Users\\felix\\Desktop\\FDR Tec Solutions\\Bookapp\\BookApi\\Bookapp\\Bookapp.Web\\Modules\\ServerTypes\\BookShop\\BookForm.ts",
               "RelativeDocumentMoniker": "Bookapp\\Bookapp.Web\\Modules\\ServerTypes\\BookShop\\BookForm.ts",
               "ToolTip": "C:\\Users\\felix\\Desktop\\FDR Tec Solutions\\Bookapp\\BookApi\\Bookapp\\Bookapp.Web\\Modules\\ServerTypes\\BookShop\\BookForm.ts",
               "RelativeToolTip": "Bookapp\\Bookapp.Web\\Modules\\ServerTypes\\BookShop\\BookForm.ts",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAiAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
               "WhenOpened": "2025-02-13T07:43:10.31Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "BookPage.ts",
               "DocumentMoniker": "C:\\Users\\felix\\Desktop\\FDR Tec Solutions\\Bookapp\\BookApi\\Bookapp\\Bookapp.Web\\Modules\\BookShop\\Book\\BookPage.ts",
               "RelativeDocumentMoniker": "Bookapp\\Bookapp.Web\\Modules\\BookShop\\Book\\BookPage.ts",
@@ -103,15 +162,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "BookEndpoint.cs",
               "DocumentMoniker": "C:\\Users\\felix\\Desktop\\FDR Tec Solutions\\Bookapp\\BookApi\\Bookapp\\Bookapp.Web\\Modules\\BookShop\\Book\\BookEndpoint.cs",
               "RelativeDocumentMoniker": "Bookapp\\Bookapp.Web\\Modules\\BookShop\\Book\\BookEndpoint.cs",
               "ToolTip": "C:\\Users\\felix\\Desktop\\FDR Tec Solutions\\Bookapp\\BookApi\\Bookapp\\Bookapp.Web\\Modules\\BookShop\\Book\\BookEndpoint.cs",
               "RelativeToolTip": "Bookapp\\Bookapp.Web\\Modules\\BookShop\\Book\\BookEndpoint.cs",
-              "ViewState": "AQIAAFcAAAAAAAAAAAAIwGsAAAAKAAAA",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAIwEgAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-13T06:37:33.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RoleService.ts",
+              "DocumentMoniker": "C:\\Users\\felix\\Desktop\\FDR Tec Solutions\\Bookapp\\BookApi\\Bookapp\\Bookapp.Web\\Modules\\ServerTypes\\Administration\\RoleService.ts",
+              "RelativeDocumentMoniker": "Bookapp\\Bookapp.Web\\Modules\\ServerTypes\\Administration\\RoleService.ts",
+              "ToolTip": "C:\\Users\\felix\\Desktop\\FDR Tec Solutions\\Bookapp\\BookApi\\Bookapp\\Bookapp.Web\\Modules\\ServerTypes\\Administration\\RoleService.ts",
+              "RelativeToolTip": "Bookapp\\Bookapp.Web\\Modules\\ServerTypes\\Administration\\RoleService.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-02-13T17:19:21.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RolePermissionListRequest.ts",
+              "DocumentMoniker": "C:\\Users\\felix\\Desktop\\FDR Tec Solutions\\Bookapp\\BookApi\\Bookapp\\Bookapp.Web\\Modules\\ServerTypes\\Administration\\RolePermissionListRequest.ts",
+              "RelativeDocumentMoniker": "Bookapp\\Bookapp.Web\\Modules\\ServerTypes\\Administration\\RolePermissionListRequest.ts",
+              "ToolTip": "C:\\Users\\felix\\Desktop\\FDR Tec Solutions\\Bookapp\\BookApi\\Bookapp\\Bookapp.Web\\Modules\\ServerTypes\\Administration\\RolePermissionListRequest.ts",
+              "RelativeToolTip": "Bookapp\\Bookapp.Web\\Modules\\ServerTypes\\Administration\\RolePermissionListRequest.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-02-13T17:18:54.985Z",
               "EditorCaption": ""
             }
           ]

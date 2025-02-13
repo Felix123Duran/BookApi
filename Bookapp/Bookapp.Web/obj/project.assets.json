@@ -9675,6 +9675,7 @@
       "Microsoft.Data.Sqlite >= 8.0.4",
       "Microsoft.TypeScript.MSBuild >= 5.4.4",
       "MySql.Data >= 9.2.0",
+      "Newtonsoft.Json >= 13.0.3",
       "Serenity.Assets >= 8.6.0",
       "Serenity.Corelib >= 8.6.0",
       "Serenity.Demo.BasicSamples >= 8.6.0",
@@ -9763,6 +9764,10 @@
           "MySql.Data": {
             "target": "Package",
             "version": "[9.2.0, )"
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[13.0.3, )"
           },
           "Serenity.Assets": {
             "target": "Package",
